@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "aca12c93-9e44-4a38-9b86-46733b5544e9": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax included"
+          }
+        },
+        "72cae7f2-f92c-4a07-b6fa-816bf07574d8": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "ships in 10 days"
+          }
+        },
+        "71306fd5-bb43-45b6-abe1-21642e9f2e36": {
+          "type": "product_price_block",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "aca12c93-9e44-4a38-9b86-46733b5544e9",
+        "72cae7f2-f92c-4a07-b6fa-816bf07574d8",
+        "71306fd5-bb43-45b6-abe1-21642e9f2e36"
+      ],
+      "settings": {
+        "show_reviews": true
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "16618282701c88042a": {
+      "type": "image-with-text",
+      "blocks": {
+        "16618282705f6237dc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test",
+            "heading_size": "h1"
+          }
+        },
+        "16618282705f6237dc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>test text<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "16618282705f6237dc-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "text button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16618282705f6237dc-0",
+        "16618282705f6237dc-1",
+        "16618282705f6237dc-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "16618282701c88042a"
+  ]
+}
