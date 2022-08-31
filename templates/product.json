@@ -160,7 +160,7 @@
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -181,11 +181,65 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "16619178357f7a4b27": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "26e7fc9a-1df8-48db-b3ba-71fada10ba77": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>This Coffee was the best I have ever had. Would recommend it to a friend.<\/p>",
+            "name": "Jeff Wilson",
+            "image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "ab888f44-8bd0-4ec1-be06-c2a02b11f1ce": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "name": "Jenny Malone",
+            "image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        },
+        "4e7c4994-6e2a-4507-ac24-a056fe1e4f8a": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>In tellus integer feugiat scelerisque. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus.<\/p>",
+            "name": "Tad Devero",
+            "image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        },
+        "ce997c53-8753-490b-9293-0266fa4fb4a8": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Facilisis volutpat est velit egestas dui id ornare. Vulputate eu scelerisque felis imperdiet.<\/p>",
+            "name": "Bill Horneset",
+            "image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "14f0c4f8-2eb8-46ab-8330-f431b7e6d0c1": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Senectus et netus et malesuada fames ac turpis egestas.<\/p>",
+            "name": "Becky Valco",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "26e7fc9a-1df8-48db-b3ba-71fada10ba77",
+        "ab888f44-8bd0-4ec1-be06-c2a02b11f1ce",
+        "4e7c4994-6e2a-4507-ac24-a056fe1e4f8a",
+        "ce997c53-8753-490b-9293-0266fa4fb4a8",
+        "14f0c4f8-2eb8-46ab-8330-f431b7e6d0c1"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "1661911068b5ba9f4d",
-    "product-recommendations"
+    "product-recommendations",
+    "16619178357f7a4b27"
   ]
 }

@@ -2882,7 +2882,34 @@ details-disclosure > details {
     }
   }
 }
-
+/* this is for the testimonial slider */
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
+}
+
+.testimonial-slider {
+  width: 100%;
+}
+.testimonial-card {
+  max-width: 350px;
+  min-height: 370px !important;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.testimonial-icon svg {
+  max-width: 10%;
+  max-height: 35px;
+}
+.testimonial-image {
+  text-align: center;
+}
+.testimonial-image img {
+  border-radius: 50%;
+  max-width: 25%;
+  margin: 15px auto;
+}
+.testimonial-name {
+  text-align: center;
 }
