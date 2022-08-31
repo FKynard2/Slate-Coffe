@@ -46,7 +46,7 @@
           "settings": {
             "heading": "Description",
             "icon": "eye",
-            "content": "",
+            "content": "", 
             "page": ""
           }
         },
@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.shipping | metafield_tag }}<\/p>",
             "page": ""
           }
         },
